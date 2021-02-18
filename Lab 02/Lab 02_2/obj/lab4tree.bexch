@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__lab4tree.o
+[PROJECT FILES]
+D:\V\PWIR\Lab 02\Lab 02_2\lab2.gpr
+20201025203126 96c8312d4f9d16731bc8498ac2d7cacd
+[BOUND OBJECT FILES]
+D:\V\PWIR\Lab 02\Lab 02_2\obj\lab4tree.o
+[GENERATED SOURCE FILES]
+b__lab4tree.ads
+b__lab4tree.adb
+b__lab4tree.ali
+[RESULTING OPTIONS]
+-LD:\V\PWIR\Lab 02\Lab 02_2\obj\
+-LD:\V\PWIR\Lab 02\Lab 02_2\obj\
+-LD:/gnat/2020/lib/gcc/x86_64-pc-mingw32/9.3.1/adalib/
+-static
+-static-libgcc
+D:/gnat/2020/lib/gcc/x86_64-pc-mingw32/9.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

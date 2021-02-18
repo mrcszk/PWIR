@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__menu.o
+[PROJECT FILES]
+D:\V\PWIR\Lab 01\_KURS\menu_pakiet\menu_pakiet.gpr
+20201014172434 ba53367cc315345a0cfbbd37655988df
+[BOUND OBJECT FILES]
+D:\V\PWIR\Lab 01\_KURS\menu_pakiet\obj\menu.o
+[GENERATED SOURCE FILES]
+b__menu.ads
+b__menu.adb
+b__menu.ali
+[RESULTING OPTIONS]
+-LD:\V\PWIR\Lab 01\_KURS\menu_pakiet\obj\
+-LD:\V\PWIR\Lab 01\_KURS\menu_pakiet\obj\
+-LD:/gnat/2020/lib/gcc/x86_64-pc-mingw32/9.3.1/adalib/
+-static
+-static-libgcc
+D:/gnat/2020/lib/gcc/x86_64-pc-mingw32/9.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

@@ -1,0 +1,111 @@
+V "GNAT Lib v2020"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DELAY
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_IO
+RV NO_RELATIVE_DELAY
+RV NO_SELECT_STATEMENTS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASK_HIERARCHY
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV MAX_SELECT_ALTERNATIVES=2
+RV MAX_TASK_ENTRIES=2
+RV MAX_TASKS=1+
+
+U zad4_1%b		zad4_1.adb		e005be9f NE OO SU IL
+W ada%s			ada.ads			ada.ali
+Z ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+Z ada.real_time%s	a-reatim.adb		a-reatim.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system%s		system.ads		system.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.parameters%s	s-parame.adb		s-parame.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.task_info%s	s-tasinf.adb		s-tasinf.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+D ada.ads		20200819050644 76789da1 ada%s
+D a-calend.ads		20200819050642 474d9720 ada.calendar%s
+D a-caldel.ads		20200819050642 9f20b83d ada.calendar.delays%s
+D a-except.ads		20200819050644 a7106115 ada.exceptions%s
+D a-finali.ads		20200819050644 bf4f806b ada.finalization%s
+D a-ioexce.ads		20200819050644 e4a01f64 ada.io_exceptions%s
+D a-reatim.ads		20200819050642 0240fc73 ada.real_time%s
+D a-stream.ads		20200819050644 119b8fb3 ada.streams%s
+D a-tags.ads		20200819050644 edddc8f0 ada.tags%s
+D a-textio.ads		20200819050644 aef4d56d ada.text_io%s
+D a-unccon.ads		20200819050644 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20200819050646 5ab55268 interfaces%s
+D i-c.ads		20200819050646 c624fa43 interfaces.c%s
+D i-cstrin.ads		20200819050646 341d0ddf interfaces.c.strings%s
+D i-cstrea.ads		20200819050646 e53d8b8e interfaces.c_streams%s
+D system.ads		20200819050648 32a08138 system%s
+D s-atacco.ads		20200819050646 4c36d12f system.address_to_access_conversions%s
+D s-conca2.ads		20200819050646 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20200819050646 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200819050646 54135002 system.exception_table%s
+D s-ficobl.ads		20200819050646 078245e4 system.file_control_block%s
+D s-finroo.ads		20200819050646 4ff27390 system.finalization_root%s
+D s-imgint.ads		20200819050646 02dbe0c2 system.img_int%s
+D s-multip.ads		20200819050646 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20200819050642 97504df8 system.os_interface%s
+D s-parame.ads		20200819050648 4752c4cb system.parameters%s
+D s-secsta.ads		20200819050648 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20200819050648 a7318a92 system.soft_links%s
+D s-stache.ads		20200819050648 a37c21ec system.stack_checking%s
+D s-stausa.ads		20200819050648 017a0a05 system.stack_usage%s
+D s-stalib.ads		20200819050648 6b7a13f2 system.standard_library%s
+D s-stoele.ads		20200819050648 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20200819050642 601f6b72 system.task_info%s
+D s-taspri.ads		20200819050642 6c1d93d4 system.task_primitives%s
+D s-taprop.ads		20200819050642 6eefbe12 system.task_primitives.operations%s
+D s-taskin.ads		20200819050642 88fba9ad system.tasking%s
+D s-taprob.ads		20200819050642 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20200819050642 60ad3dae system.tasking.protected_objects.entries%s
+D s-tasren.ads		20200819050642 a67a9949 system.tasking.rendezvous%s
+D s-tassta.ads		20200819050642 cca55c94 system.tasking.stages%s
+D s-traent.ads		20200819050648 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200819050648 5ecf7212 system.unsigned_types%s
+D s-wchcon.ads		20200819050648 1b7d22d2 system.wch_con%s
+D s-win32.ads		20200819050648 15ac53fb system.win32%s
+D zad4_1.adb		20201203184038 4ef16bf2 zad4_1%b
+G a e
+G c Z b b [zad4_1 standard 4 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 45|1r6 2r5
+X 10 a-textio.ads
+57K13*Text_IO 727e16 45|1w10 2r9
+508U14*Put_Line 45|18s17 23s17 37s17 39s17 41s17
+X 30 s-stausa.ads
+208U14*Initialize 209i<c,__gnat_stack_usage_initialize>22
+273U14*Output_Results 277i<c,__gnat_stack_usage_output_results>22
+X 45 zad4_1.adb
+4U11*zad4_1 4b11 53l5 53t11
+5T19 Semafor 8l13 8e20 10b19 26l13 26t20 28r6
+6Y23 Wait 16b21 19l18 19t22 38s21
+7Y23 Signal 21b18 42s21
+11i9 Sem{integer} 15r16 17m17 17r24 18r57 22m17 22r24 23r56
+28t1 Sem{5T19} 38r17 42r17
+30T19 Zad 30d23 32l13 32e16 34b19 43l13 43t16 46r7 47r7 48r7
+30i23 N{integer} 37r45 39r43 41r46
+31Y23 Start 36b24 50s14 51s14 52s9
+46t1 Zad1{30T19} 50r9
+47t1 Zad2{30T19} 51r9
+48t1 Zad3{30T19} 52r4
+

@@ -1,0 +1,4 @@
+wyjatki1.adb:6:11: warning: file name does not match unit name, should be "system_time.adb"
+wyjatki1.adb:9:31: invalid operand types for operator "+"
+wyjatki1.adb:9:31: left operand has type "Standard.String"
+wyjatki1.adb:9:31: right operand has a string type

@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file>D:\V\PWIR\Lab 06\lab6.gpr</vfs_file>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>D:\V\PWIR\Lab 06\06\lab6.gpr</vfs_file>
+    </file_marker>
+  </Project>
+  <Project >
+    <vfs_file >D:\V\PWIR\Lab06\lab6.gpr</vfs_file>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >D:\V\PWIR\Lab</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >D:\V\PWIR\Lab 06\src\06\src\Zad1.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 75">
+      <vfs_project  />
+      <vfs_file >D:\V\PWIR\Lab 06\src\Zad1.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 12" line=" 77">
+      <vfs_project  />
+      <vfs_file >D:\V\PWIR\Lab 06\src\Zad2.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >D:\V\PWIR\Lab 06\src\Zad1.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >D:\V\PWIR\Lab 06\src\Zad2.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >D:\V\PWIR\Lab 06\src\Zad3.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >D:\V\PWIR\Lab06\lab6.gpr</vfs_project>
+      <vfs_file >D:\V\PWIR\Lab06\src\lab6.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1">
+      <vfs_project >D:\V\PWIR\Lab06\lab6.gpr</vfs_project>
+      <vfs_file >D:\V\PWIR\Lab06\src\Zad1.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

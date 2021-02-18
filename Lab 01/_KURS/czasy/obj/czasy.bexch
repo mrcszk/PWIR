@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__czasy.o
+[PROJECT FILES]
+D:\V\PWIR\Lab 01\_KURS\czasy\czasy.gpr
+20201014171720 ecf2291b6029fb44338d1398961fcec9
+[BOUND OBJECT FILES]
+D:\V\PWIR\Lab 01\_KURS\czasy\obj\czasy.o
+[GENERATED SOURCE FILES]
+b__czasy.ads
+b__czasy.adb
+b__czasy.ali
+[RESULTING OPTIONS]
+-LD:\V\PWIR\Lab 01\_KURS\czasy\obj\
+-LD:\V\PWIR\Lab 01\_KURS\czasy\obj\
+-LD:/gnat/2020/lib/gcc/x86_64-pc-mingw32/9.3.1/adalib/
+-static
+-static-libgcc
+D:/gnat/2020/lib/gcc/x86_64-pc-mingw32/9.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

@@ -1,0 +1,21 @@
+2020-10-17 16:18:29 Start programu
+Bledna nazwa pliku < test222 > !
+Bledna nazwa pliku < test > !
+Otworzono plik < test.txt > .
+Skonczono program, czas dzialania:  15.409706500[s]
+2020-10-17 16:18:29 KONIEC
+2020-10-17 16:27:31 Start programu
+Bledna nazwa pliku < blad > !
+Otworzono plik < test.txt > .
+Skonczono program, czas dzialania:  19.954817900[s]
+2020-10-17 16:27:31 KONIEC
+2020-10-17 16:28:48 Start programu
+Bledna nazwa pliku < text2 > !
+Otworzono plik < test.txt > .
+Skonczono program, czas dzialania:  9.101977600[s]
+2020-10-17 16:28:48 KONIEC
+2020-10-17 16:35:02 Start programu
+Bledna nazwa pliku < a > !
+Otworzono plik < test.txt > .
+Skonczono program, czas dzialania:  10.615978600[s]
+2020-10-17 16:35:02 KONIEC

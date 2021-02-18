@@ -1,0 +1,81 @@
+V "GNAT Lib v2020"
+M P W=b
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_RECURSION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+
+U lab0%b		lab0.adb		8cc3c176 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.img_real%s	s-imgrea.adb		s-imgrea.ali
+
+D ada.ads		20200819050644 76789da1 ada%s
+D a-except.ads		20200819050644 a7106115 ada.exceptions%s
+D a-ioexce.ads		20200819050644 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20200819050644 119b8fb3 ada.streams%s
+D a-tags.ads		20200819050644 edddc8f0 ada.tags%s
+D a-textio.ads		20200819050644 aef4d56d ada.text_io%s
+D a-unccon.ads		20200819050644 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20200819050646 5ab55268 interfaces%s
+D i-cstrea.ads		20200819050646 e53d8b8e interfaces.c_streams%s
+D lab0.adb		20201008091556 2237141b lab0%b
+D system.ads		20200819050648 32a08138 system%s
+D s-conca2.ads		20200819050646 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20200819050646 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200819050646 54135002 system.exception_table%s
+D s-ficobl.ads		20200819050646 078245e4 system.file_control_block%s
+D s-imgint.ads		20200819050646 02dbe0c2 system.img_int%s
+D s-imgrea.ads		20200819050646 9f9b9792 system.img_real%s
+D s-parame.ads		20200819050648 4752c4cb system.parameters%s
+D s-secsta.ads		20200819050648 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20200819050648 a7318a92 system.soft_links%s
+D s-stache.ads		20200819050648 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200819050648 6b7a13f2 system.standard_library%s
+D s-stoele.ads		20200819050648 2dc34a04 system.storage_elements%s
+D s-traent.ads		20200819050648 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200819050648 5ecf7212 system.unsigned_types%s
+D s-wchcon.ads		20200819050648 1b7d22d2 system.wch_con%s
+G a e
+G c Z b b [lab0 standard 9 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 10|5r6 6r5
+X 6 a-textio.ads
+57K13*Text_IO 727e16 10|5w10 6r9
+264U14*New_Line 10|45s5
+465U14*Put 10|43s7
+508U14*Put_Line 10|41s5 72s3 73s3 74s3 76s3 77s3 78s3
+X 10 lab0.adb
+9U11*Lab0 9b11 79l5 79t9
+14V12 Max2{float} 14b12 14>17 14>21 19l7 19t11 74s24
+14f17 A1{float} 16r8 16r28
+14f21 A2{float} 16r13 17r17
+25V12 Add{float} 25>16 25>20 72s24
+25f16 A1{float} 26r6
+25f20 A2{float} 26r11
+28V12 Max{float} 28>16 28>20 73s23
+28f16 A1{float} 29r9 29r22
+28f20 A2{float} 29r14 29r30
+32V12 Fibo{natural} 32>17 33s50 33s62 43s12
+32i17 N{natural} 33r9 33r28 33r55 33r67
+37U13 Print_Fibo 37b13 37>24 46l7 46t17 75s3
+37i24 N{integer} 39r8 39r16 41r44 42r17
+42i9 I{integer} 43r17
+48V12 Avg{float} 48>16 48>20 76s23
+48f16 A1{float} 49r11
+48f20 A2{float} 49r16
+51V12 Sil{integer} 51b12 51>16 60l7 60t10 77s35
+51i16 N{integer} 54r20 54r28 56r29
+52i11 sil{integer} 57m19 57r26 59r18
+56i21 I{integer} 57r24
+62V12 Sil2{integer} 62b12 62>17 66s21 68l7 68t11 78s35
+62i17 N{integer} 64r8 64r16 65r15 66r26 66r31
+

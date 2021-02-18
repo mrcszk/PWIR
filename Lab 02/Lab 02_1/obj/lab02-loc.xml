@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file />
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>D:\V\PWIR\Lab 02\Lab 02_2\02\Lab</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>D:\V\PWIR\Lab 02\Lab 02_2\02_2\lab02.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>D:\V\PWIR\Lab 02\Lab 02_2\lab02.gpr</vfs_project>
+      <vfs_file>D:\V\PWIR\Lab 02\Lab 02_2\src\lab4tree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 11" line=" 3" >
+      <vfs_project>D:\V\PWIR\Lab 02\Lab 02_2\lab02.gpr</vfs_project>
+      <vfs_file>D:\V\PWIR\Lab 02\Lab 02_2\src\lab4tree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 5" line=" 106" >
+      <vfs_project>D:\V\PWIR\Lab 02\Lab 02_2\lab02.gpr</vfs_project>
+      <vfs_file>D:\V\PWIR\Lab 02\Lab 02_2\src\lab4tree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 5" line=" 108" >
+      <vfs_project>D:\V\PWIR\Lab 02\Lab 02_2\lab02.gpr</vfs_project>
+      <vfs_file>D:\V\PWIR\Lab 02\Lab 02_2\src\lab4tree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 5" line=" 107" >
+      <vfs_project>D:\V\PWIR\Lab 02\Lab 02_2\lab02.gpr</vfs_project>
+      <vfs_file>D:\V\PWIR\Lab 02\Lab 02_2\src\lab4tree.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 21" line=" 164" >
+      <vfs_project>D:\V\PWIR\Lab 02\Lab 02_2\lab02.gpr</vfs_project>
+      <vfs_file>D:\V\PWIR\Lab 02\Lab 02_2\src\lab4tree.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>D:\V\PWIR\Lab 02\Lab 02_1\src\lab02.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__pliki1.o
+[PROJECT FILES]
+D:\V\PWIR\Lab 01\_KURS\pliki\pliki.gpr
+20201014172650 df127ffe4d6e4153dc1f11062b8410e5
+[BOUND OBJECT FILES]
+D:\V\PWIR\Lab 01\_KURS\pliki\obj\pliki1.o
+[GENERATED SOURCE FILES]
+b__pliki1.ads
+b__pliki1.adb
+b__pliki1.ali
+[RESULTING OPTIONS]
+-LD:\V\PWIR\Lab 01\_KURS\pliki\obj\
+-LD:\V\PWIR\Lab 01\_KURS\pliki\obj\
+-LD:/gnat/2020/lib/gcc/x86_64-pc-mingw32/9.3.1/adalib/
+-static
+-static-libgcc
+D:/gnat/2020/lib/gcc/x86_64-pc-mingw32/9.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__hello.o
+[PROJECT FILES]
+D:\V\PWIR\Lab 01\_KURS\hello\hello.gpr
+20201014172044 bba351c5eb65735b2f56fa9f6efb7b97
+[BOUND OBJECT FILES]
+D:\V\PWIR\Lab 01\_KURS\hello\obj\hello.o
+[GENERATED SOURCE FILES]
+b__hello.ads
+b__hello.adb
+b__hello.ali
+[RESULTING OPTIONS]
+-LD:\V\PWIR\Lab 01\_KURS\hello\obj\
+-LD:\V\PWIR\Lab 01\_KURS\hello\obj\
+-LD:/gnat/2020/lib/gcc/x86_64-pc-mingw32/9.3.1/adalib/
+-static
+-static-libgcc
+D:/gnat/2020/lib/gcc/x86_64-pc-mingw32/9.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

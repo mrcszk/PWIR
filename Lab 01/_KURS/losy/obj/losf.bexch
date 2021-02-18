@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__losf.o
+[PROJECT FILES]
+D:\V\PWIR\Lab 01\_KURS\losy\losy.gpr
+20201014172306 bb7bcc2e76bdc8901b0f23d7aa58004f
+[BOUND OBJECT FILES]
+D:\V\PWIR\Lab 01\_KURS\losy\obj\losf.o
+[GENERATED SOURCE FILES]
+b__losf.ads
+b__losf.adb
+b__losf.ali
+[RESULTING OPTIONS]
+-LD:\V\PWIR\Lab 01\_KURS\losy\obj\
+-LD:\V\PWIR\Lab 01\_KURS\losy\obj\
+-LD:/gnat/2020/lib/gcc/x86_64-pc-mingw32/9.3.1/adalib/
+-static
+-static-libgcc
+D:/gnat/2020/lib/gcc/x86_64-pc-mingw32/9.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

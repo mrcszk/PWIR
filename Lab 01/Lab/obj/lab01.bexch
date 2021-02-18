@@ -1,0 +1,20 @@
+[GENERATED OBJECT FILE]
+b__lab01.o
+[PROJECT FILES]
+D:\V\PWIR\Lab 01\Lab\lab01.gpr
+20201014174734 b0a344872187e1793fcef7d4570f2380
+[BOUND OBJECT FILES]
+D:\V\PWIR\Lab 01\Lab\obj\pak_lab01.o
+D:\V\PWIR\Lab 01\Lab\obj\lab01.o
+[GENERATED SOURCE FILES]
+b__lab01.ads
+b__lab01.adb
+b__lab01.ali
+[RESULTING OPTIONS]
+-LD:\V\PWIR\Lab 01\Lab\obj\
+-LD:\V\PWIR\Lab 01\Lab\obj\
+-LD:/gnat/2020/lib/gcc/x86_64-pc-mingw32/9.3.1/adalib/
+-static
+-static-libgcc
+D:/gnat/2020/lib/gcc/x86_64-pc-mingw32/9.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

@@ -1,0 +1,22 @@
+[GENERATED OBJECT FILE]
+b__zad4_2.o
+[PROJECT FILES]
+D:\V\PWIR\Lab 07\lab07.gpr
+20201203184342 223ec6f9ffb063256b7dd63b4c91f9b1
+[BOUND OBJECT FILES]
+D:\V\PWIR\Lab 07\obj\zad4_2.o
+[GENERATED SOURCE FILES]
+b__zad4_2.ads
+b__zad4_2.adb
+b__zad4_2.ali
+[RESULTING OPTIONS]
+-LD:\V\PWIR\Lab 07\obj\
+-LD:\V\PWIR\Lab 07\obj\
+-LD:/gnat/2020/lib/gcc/x86_64-pc-mingw32/9.3.1/adalib/
+-static
+-static-libgcc
+D:/gnat/2020/lib/gcc/x86_64-pc-mingw32/9.3.1/adalib/libgnarl.a
+D:/gnat/2020/lib/gcc/x86_64-pc-mingw32/9.3.1/adalib/libgnat.a
+-Xlinker
+--stack=0x200000,0x1000
+-mthreads

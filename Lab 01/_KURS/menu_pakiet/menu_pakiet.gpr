@@ -1,0 +1,5 @@
+project Menu_Pakiet is
+    for Source_Dirs use ("src");
+    for Object_Dir use "obj";
+    for Main use ("menu.adb");
+end Menu_Pakiet;

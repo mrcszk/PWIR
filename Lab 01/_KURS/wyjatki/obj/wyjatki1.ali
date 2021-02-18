@@ -1,0 +1,70 @@
+V "GNAT Lib v2020"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_CALENDAR
+RV NO_DELAY
+RV NO_IO
+RV NO_SECONDARY_STACK
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U system_time%b		wyjatki1.adb		da8b3f4a NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+W ada.calendar.formatting%s  a-calfor.adb	a-calfor.ali
+W ada.calendar.time_zones%s  a-catizo.adb	a-catizo.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+D ada.ads		20200819050644 76789da1 ada%s
+D a-calend.ads		20200819050642 474d9720 ada.calendar%s
+D a-calfor.ads		20200819050642 0f4707d1 ada.calendar.formatting%s
+D a-catizo.ads		20200819050642 eaa56756 ada.calendar.time_zones%s
+D a-except.ads		20200819050644 a7106115 ada.exceptions%s
+D a-ioexce.ads		20200819050644 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20200819050644 119b8fb3 ada.streams%s
+D a-tags.ads		20200819050644 edddc8f0 ada.tags%s
+D a-textio.ads		20200819050644 aef4d56d ada.text_io%s
+D a-unccon.ads		20200819050644 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20200819050646 5ab55268 interfaces%s
+D i-cstrea.ads		20200819050646 e53d8b8e interfaces.c_streams%s
+D system.ads		20200819050648 32a08138 system%s
+D s-crtl.ads		20200819050646 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200819050646 54135002 system.exception_table%s
+D s-ficobl.ads		20200819050646 078245e4 system.file_control_block%s
+D s-parame.ads		20200819050648 4752c4cb system.parameters%s
+D s-secsta.ads		20200819050648 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20200819050648 a7318a92 system.soft_links%s
+D s-stache.ads		20200819050648 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200819050648 6b7a13f2 system.standard_library%s
+D s-stoele.ads		20200819050648 2dc34a04 system.storage_elements%s
+D s-traent.ads		20200819050648 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200819050648 5ecf7212 system.unsigned_types%s
+D s-wchcon.ads		20200819050648 1b7d22d2 system.wch_con%s
+D wyjatki1.adb		20201017160104 d6d01d80 system_time%b
+G a e
+G c Z b b [system_time standard 6 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 26|1r6 1r24 2r6 2r35 3r6 3r35 4r6 4r23
+X 2 a-calend.ads
+36K13*Calendar 409e17 26|1w10 1r28 2r10 2r39 3r10 3r39
+42I9*Time<222I9> 26|7r10
+56V13*Clock{42I9} 26|7s18
+222I9 Time_Rep<long_long_integer>
+X 3 a-calfor.ads
+24K22*Formatting 223e28 26|2w19 2r48
+176V13*Image{string} 26|9s13
+177i7 Date{2|42I9} 26|9r19
+X 4 a-catizo.ads
+19K22*Time_Zones 34e28 26|3w19 3r48
+X 9 a-textio.ads
+57K13*Text_IO 727e16 26|4w10 4r27
+508U14*Put_Line 26|9s4
+X 26 wyjatki1.adb
+6U11*System_Time 6b11 10l5 10t16
+7i4 Now{2|42I9} 9r27
+

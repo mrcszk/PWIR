@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__wyjatki1.o
+[PROJECT FILES]
+D:\V\PWIR\Lab 01\_KURS\wyjatki\wyjatki.gpr
+20201014172800 1048f106f3cf874a4dafd6d8c734a88a
+[BOUND OBJECT FILES]
+D:\V\PWIR\Lab 01\_KURS\wyjatki\obj\wyjatki1.o
+[GENERATED SOURCE FILES]
+b__wyjatki1.ads
+b__wyjatki1.adb
+b__wyjatki1.ali
+[RESULTING OPTIONS]
+-LD:\V\PWIR\Lab 01\_KURS\wyjatki\obj\
+-LD:\V\PWIR\Lab 01\_KURS\wyjatki\obj\
+-LD:/gnat/2020/lib/gcc/x86_64-pc-mingw32/9.3.1/adalib/
+-static
+-static-libgcc
+D:/gnat/2020/lib/gcc/x86_64-pc-mingw32/9.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

@@ -1,0 +1,170 @@
+V "GNAT Lib v2020"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_DISPATCH
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_STREAMS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U main%b		main.adb		ec68d4f8 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.float_random%s  a-nuflra.adb	a-nuflra.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.text_io.text_streams%s  a-titest.adb	a-titest.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+
+D ada.ads		20200819050644 76789da1 ada%s
+D a-except.ads		20200819050644 a7106115 ada.exceptions%s
+D a-flteio.ads		20200819050644 e18a47a0 ada.float_text_io%s
+D a-ioexce.ads		20200819050644 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20200819050644 bb51c45a ada.numerics%s
+D a-nuflra.ads		20200819050644 4056ab7a ada.numerics.float_random%s
+D a-stream.ads		20200819050644 119b8fb3 ada.streams%s
+D a-tags.ads		20200819050644 edddc8f0 ada.tags%s
+D a-textio.ads		20200819050644 aef4d56d ada.text_io%s
+D a-tiflio.ads		20200819050644 bf196650 ada.text_io.float_io%s
+D a-titest.ads		20200819050644 f6e9e057 ada.text_io.text_streams%s
+D a-unccon.ads		20200819050644 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20200819050646 5ab55268 interfaces%s
+D i-cstrea.ads		20200819050646 e53d8b8e interfaces.c_streams%s
+D main.adb		20201210191836 dcbeca67 main%b
+D system.ads		20200819050648 32a08138 system%s
+D s-crtl.ads		20200819050646 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200819050646 54135002 system.exception_table%s
+D s-ficobl.ads		20200819050646 078245e4 system.file_control_block%s
+D s-parame.ads		20200819050648 4752c4cb system.parameters%s
+D s-rannum.ads		20200819050648 99ade2f2 system.random_numbers%s
+D s-secsta.ads		20200819050648 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20200819050648 a7318a92 system.soft_links%s
+D s-stache.ads		20200819050648 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200819050648 6b7a13f2 system.standard_library%s
+D s-stoele.ads		20200819050648 2dc34a04 system.storage_elements%s
+D s-stratt.ads		20200819050648 9a2744e9 system.stream_attributes%s
+D s-traent.ads		20200819050648 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200819050648 5ecf7212 system.unsigned_types%s
+D s-wchcon.ads		20200819050648 1b7d22d2 system.wch_con%s
+G a e
+G c Z b b [main standard 5 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 15|1w6 1r11 1r23 1r35 1r60 1r73 1r100 2r5 2r9 2r21 2r34 2r47
+. 2r73 54r13
+X 3 a-flteio.ads
+20K13*Float_Text_IO[10|46] 15|1w104 54r17
+X 5 a-numeri.ads
+16K13*Numerics 32e17 15|1r77 2r51
+X 6 a-nuflra.ads
+41K22*Float_Random 74e30 15|1w86 2r60
+47R9*Generator<21|63R9> 15|36r13
+49F12*Uniformly_Distributed{float}
+51V13*Random{49F12}<21|71p13> 15|43s37
+53U14*Reset<21|100p14> 15|40s10
+X 7 a-stream.ads
+36K13*Streams 87e16 15|1w27 2r25
+39H9*Root_Stream_Type 70e64 15|12r30 13r31 17r30 25r31
+X 9 a-textio.ads
+57K13*Text_IO 727e16 15|1w15 1r39 1w64 2r13 2r38 2r77
+64P9*File_Type 15|6r18
+66n23*In_File{66E9} 15|129r14 143r14 157r14 171r14 185r14 199r14
+66n32*Out_File{66E9} 15|123r16 137r14 151r14 165r14 179r14 193r14 207r14
+99U14*Create 15|123s3
+114U14*Open 15|129s3 137s3 143s3 151s3 157s3 165s3 171s3 179s3 185s3 193s3
+. 199s3 207s3
+129U14*Close 15|126s3 132s3 140s3 146s3 154s3 160s3 168s3 174s3 182s3 188s3
+. 196s3 202s3 210s3
+508U14*Put_Line 15|56s11 91s10 101s10 121s3 134s3 135s3 148s3 149s3 162s3
+. 163s3 176s3 177s3 190s3 191s3 204s3 205s3
+X 10 a-tiflio.ads
+82U14*Put 15|54s31[3|20]
+X 11 a-titest.ads
+17K21*Text_Streams 23e29 15|1w47 2r85
+19P9*Stream_Access(7|39R9) 15|8r18
+21V13*Stream{19P9} 15|124s15 130s15 138s15 144s15 152s15 158s15 166s15 172s15
+. 180s15 186s15 194s15 200s15 208s15
+X 15 main.adb
+5U11*Main 5b11 211l5 211t9
+6p3 Plik{9|64P9} 123m10 123r10 124r22 126m9 126r9 129m8 129r8 130r22 132m9
+. 132r9 137m8 137r8 138r22 140m9 140r9 143m8 143r8 144r22 146m9 146r9 151m8
+. 151r8 152r22 154m9 154r9 157m8 157r8 158r22 160m9 160r9 165m8 165r8 166r22
+. 168m9 168r9 171m8 171r8 172r22 174m9 174r9 179m8 179r8 180r22 182m9 182r9
+. 185m8 185r8 186r22 188m9 188r9 193m8 193r8 194r22 196m9 196r9 199m8 199r8
+. 200r22 202m9 202r9 207m8 207r8 208r22 210m9 210r9
+7a3 Nazwa{string} 123r26 129r23 137r24 143r23 151r24 157r23 165r24 171r23
+. 179r24 185r23 193r24 199r23 207r24
+8p3 Strumien{11|19P9} 124m3 125r18 130m3 131r17 138m3 139r18 144m3 145r17
+. 152m3 153r18 158m3 159r17 166m3 167r18 172m3 173r17 180m3 181r18 186m3
+. 187r17 194m3 195r18 200m3 201r17 208m3 209r18
+10A8 matrix2D(float)<integer><integer> 12r65 13r65 14r7 15r7 17r65 25r65
+. 35r56 38r22 50r32 61r20 61r49 62r21 72r21 72r50 77r21 77r50 78r21 88r21
+. 88r50 97r29 97r45 97r62 98r21 113r29 113r45 113r62 118r8 125r3 131r3 139r3
+. 145r3 153r3 159r3 167r3 173r3 181r3 187r3 195r3 201r3 209r3
+12U13 Read 12^19 12<54 17b13 24l7 24t11
+12p19 S(7|39R9) 17b19 21r22
+12a54 NTab{10A8} 17b54 19r16 20r18 21m24 21r24
+13U13 Write 13^20 13>55 25b13 33l7 33t12
+13p20 S(7|39R9) 25b20 29r21
+13a55 NTab{10A8} 25b55 27r14 28r16 29r23
+19i11 Y{integer} 21r31
+20i13 X{integer} 21r29
+27i9 Y{integer} 29r30
+28i11 X{integer} 29r28
+35V12 CreateMatrix{10A8} 35b12 35>25 35>37 48l8 48t20 118s20
+35i25 X{integer} 38r37 42r28
+35i37 Y{integer} 38r45 41r24
+36r8 Gen{6|47R9} 40r16 43r44
+38a16 Grid{10A8} 43m17 46r17
+41i14 R{integer} 43r24
+42i18 C{integer} 43r22
+50U14 PrintMatrix 50b14 50>26 59l8 59t19 122s3 136s3 150s3 164s3 178s3 192s3
+. 206s3
+50a26 scr{10A8} 52r18 53r20 54r35
+52i13 Y{integer} 54r41
+53i15 X{integer} 54r39
+61V12 Add{10A8} 61b12 61>16 61>30 70l8 70t11 74s14 133s10
+61a16 mat{10A8} 62r33 62r51 64r21 65r24 66r39
+61f30 num{float} 66r55
+62a7 resultMatrix{10A8} 66m13 69r14
+64i11 row{integer} 66r26 66r43
+65i14 col{integer} 66r31 66r48
+72V13 Sub{10A8} 72b13 72>17 72>31 75l8 75t11 147s10
+72a17 mat{10A8} 74r18
+72f31 num{float} 74r30
+77V13 Mul{10A8} 77b13 77>17 77>31 86l8 86t11 94s14 115s30 161s10
+77a17 mat{10A8} 78r33 78r51 80r21 81r24 82r39
+77f31 num{float} 82r55
+78a7 resultMatrix{10A8} 82m13 85r14
+80i11 row{integer} 82r26 82r43
+81i14 col{integer} 82r31 82r48
+88V13 Div{10A8} 88b13 88>17 88>31 95l8 95t11 175s10
+88a17 mat{10A8} 92r17 94r18
+88f31 num{float} 90r10 94r28
+97V13 MatrixAdd{10A8} 97b13 97>23 97>39 110l8 110t17 115s14 189s10
+97a23 mat1{10A8} 98r33 98r52 100r10 100r46 106r39
+97a39 mat2{10A8} 100r28 100r64 106r56
+98a7 resultMatrix{10A8} 102r17 104r21 105r24 106m13 109r14
+104i11 row{integer} 106r26 106r44 106r61
+105i14 col{integer} 106r31 106r49 106r66
+113V13 MatrixSub{10A8} 113b13 113>23 113>39 116l8 116t17 203s10
+113a23 mat1{10A8} 115r24
+113a39 mat2{10A8} 115r34
+118a3 Mat{10A8} 122r15 125r28 131r27 133r3 133r14 136r15 139r28 145r27 147r3
+. 147r14 150r15 153r28 159r27 161r3 161r14 164r15 167r28 173r27 175r3 175r14
+. 178r15 181r28 187r27 189r3 189r20 189r25 192r15 195r28 201r27 203r3 203r20
+. 203r25 206r15 209r28
+

@@ -1,0 +1,142 @@
+V "GNAT Lib v2020"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_CALENDAR
+RV NO_DELAY
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_SECONDARY_STACK
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U pak_lab01%b		pak_lab01.adb		6120a00b NE OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+W ada.calendar.formatting%s  a-calfor.adb	a-calfor.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.float_random%s  a-nuflra.adb	a-nuflra.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
+Z system.img_lld%s	s-imglld.adb		s-imglld.ali
+Z system.img_real%s	s-imgrea.adb		s-imgrea.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U pak_lab01%s		pak_lab01.ads		db713f31 EE NE OO PK IL
+
+D ada.ads		20200819050644 76789da1 ada%s
+D a-calend.ads		20200819050642 474d9720 ada.calendar%s
+D a-calfor.ads		20200819050642 0f4707d1 ada.calendar.formatting%s
+D a-catizo.ads		20200819050642 eaa56756 ada.calendar.time_zones%s
+D a-except.ads		20200819050644 a7106115 ada.exceptions%s
+D a-ioexce.ads		20200819050644 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20200819050644 bb51c45a ada.numerics%s
+D a-nuflra.ads		20200819050644 4056ab7a ada.numerics.float_random%s
+D a-stream.ads		20200819050644 119b8fb3 ada.streams%s
+D a-tags.ads		20200819050644 edddc8f0 ada.tags%s
+D a-textio.ads		20200819050644 aef4d56d ada.text_io%s
+D a-unccon.ads		20200819050644 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20200819050646 5ab55268 interfaces%s
+D i-cstrea.ads		20200819050646 e53d8b8e interfaces.c_streams%s
+D pak_lab01.ads		20201017131830 db713f31 pak_lab01%s
+D pak_lab01.adb		20201017163456 1cf971dc pak_lab01%b
+D system.ads		20200819050648 32a08138 system%s
+D s-conca2.ads		20200819050646 02a0d7d0 system.concat_2%s
+D s-conca3.ads		20200819050646 0b705ca5 system.concat_3%s
+D s-crtl.ads		20200819050646 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200819050646 54135002 system.exception_table%s
+D s-ficobl.ads		20200819050646 078245e4 system.file_control_block%s
+D s-imglld.ads		20200819050646 f3220969 system.img_lld%s
+D s-imgrea.ads		20200819050646 9f9b9792 system.img_real%s
+D s-parame.ads		20200819050648 4752c4cb system.parameters%s
+D s-rannum.ads		20200819050648 99ade2f2 system.random_numbers%s
+D s-secsta.ads		20200819050648 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20200819050648 a7318a92 system.soft_links%s
+D s-stache.ads		20200819050648 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200819050648 6b7a13f2 system.standard_library%s
+D s-stoele.ads		20200819050648 2dc34a04 system.storage_elements%s
+D s-traent.ads		20200819050648 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200819050648 5ecf7212 system.unsigned_types%s
+D s-wchcon.ads		20200819050648 1b7d22d2 system.wch_con%s
+G a e
+G c Z s b [wypiszwektor pak_lab01 3 14 none]
+G c Z s b [wypelnijlosowo pak_lab01 4 14 none]
+G c Z s b [sortowanie pak_lab01 5 14 none]
+G c Z s b [wypisz pak_lab01 7 14 none]
+G c Z s s [wektorIP pak_lab01 2 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 16|1r6 1r33 1r46 1r60 2r5 2r32 2r45 2r59
+X 2 a-calend.ads
+36K13*Calendar 409e17 16|1w50 1r64 2r49 2r63
+42I9*Time<222I9> 16|46r10 47r10 49r13
+56V13*Clock{42I9} 16|49s21 53s11 88s11
+112V14*"-"{duration} 16|90s13
+222I9 Time_Rep<long_long_integer>
+X 3 a-calfor.ads
+24K22*Formatting 223e28 16|1w73 2r72
+176V13*Image{string} 16|61s16 100s16
+177i7 Date{2|42I9} 16|61r22 100r22
+X 7 a-numeri.ads
+16K13*Numerics 32e17 16|1r10 2r9
+X 8 a-nuflra.ads
+41K22*Float_Random 74e30 16|1w19 2r18
+47R9*Generator<26|63R9> 16|14r14
+49F12*Uniformly_Distributed{float}
+51V13*Random{49F12}<26|71p13> 16|18s19
+53U14*Reset<26|100p14> 16|16s9
+X 11 a-textio.ads
+57K13*Text_IO 727e16 16|1w37 2r36
+64P9*File_Type 16|40r13 41r12
+66n23*In_File{66E9} 16|58r42 70r40 71r24
+66n42*Append_File{66E9} 16|56r20 76r30 81r18 96r18 99r18
+99U14*Create 16|58s29
+114U14*Open 16|56s10 70s13 71s13 76s19 81s7 96s7 99s7
+115p7 File{64P9} 16|70r18
+116e7 Mode{66E9} 16|70r32
+117a7 Name{string} 16|70r49
+129U14*Close 16|63s7 72s13 78s19 83s7 92s7 98s7 102s7
+312V13*End_Of_File{boolean} 16|85s17
+459U14*Put 16|61s7 62s7 77s19 82s7 97s7 100s7 101s7
+481U14*Get_Line 16|68s10
+492V13*Get_Line{string} 16|86s22
+508U14*Put_Line 16|8s13 67s10 75s32 86s13 91s7
+544X4*Name_Error 16|58r15 75r18
+X 15 pak_lab01.ads
+1K9*pak_lab01 8l5 8e14 16|4b14 104l5 104t14
+2A9*Wektor(float)<integer> 3r29 4r36 5r35 16|5r30 13r37 23r36
+3U14*WypiszWektor 3>27 16|5b15 10l9 10t21
+3a27 t{2A9} 16|5b28 7r18 8r22
+4U14*Wypelnijlosowo 4<29 16|13b15 20l8 20t22
+4a29 t{2A9} 16|13b30 17r18 18m13
+5U14*Sortowanie 5=25 16|23b15 37l8 37t18
+5a25 t{2A9} 16|23b26 26r18 26r28 27r22 27r32 28r20 28r25 29r26 30m21 30r29
+. 31m21
+7U14*Wypisz 16|39b14 103l11 103t17
+X 16 pak_lab01.adb
+7i13 i{integer} 8r24
+14r9 Gen{8|47R9} 16r15 18r26
+17i13 i{integer} 18r15
+24f9 tmp{float} 29m21 31r27
+26i13 i{integer} 27r39
+27i17 j{integer} 28r22 28r27 29r28 30r23 30r31 31r23
+40p7 File{11|64P9} 70m26 70r26 85r29 86r31 92m13 92r13
+41p7 Log{11|64P9} 56m15 56r15 58m37 58r37 61r11 62r11 63m13 63r13 71m19 71r19
+. 72m20 72r20 76m25 76r25 77r23 78m26 78r26 81m13 81r13 82r11 83m14 83r14
+. 96m13 96r13 97r11 98m13 98r13 99m13 99r13 100r11 101r11 102m14 102r14
+43a7 Name{string} 68m19 70r57 75r67 77r54 82r38
+44i7 Len{integer} 68m25 70r65 75r75 77r62 82r46
+46i7 T1{2|42I9} 53m7 90r14
+47i7 T2{2|42I9} 88m7 90r11
+48o7 D{duration} 90m7 91r44 97r54
+49i7 Now{2|42I9} 61r30 100r30
+

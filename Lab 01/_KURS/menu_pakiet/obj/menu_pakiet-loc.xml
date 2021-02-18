@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file>D:\V\PWIR\Lab 01\_KURS\menu_pakiet\menu_pakiet.gpr</vfs_file>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>D:\V\PWIR\Lab 01\_KURS\menu_pakiet\01\_KURS\menu_pakiet\menu_pakiet.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>D:\V\PWIR\Lab 01\_KURS\menu_pakiet\menu_pakiet.gpr</vfs_project>
+      <vfs_file>D:\V\PWIR\Lab 01\_KURS\menu_pakiet\src\menu.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>D:\V\PWIR\Lab 01\_KURS\menu_pakiet\menu_pakiet.gpr</vfs_project>
+      <vfs_file>D:\V\PWIR\Lab 01\_KURS\menu_pakiet\src\menup.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project>D:\V\PWIR\Lab 01\_KURS\menu_pakiet\menu_pakiet.gpr</vfs_project>
+      <vfs_file>D:\V\PWIR\Lab 01\_KURS\menu_pakiet\src\opcje.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>
